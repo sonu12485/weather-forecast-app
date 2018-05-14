@@ -5,6 +5,8 @@ import Chart from '../components/chart';
 import _ from 'lodash';
 import { withRouter } from 'react-router-dom';
 
+import '../style/style.css';
+
 class ShowDetails extends Component
 {
 

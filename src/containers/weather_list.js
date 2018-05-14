@@ -6,6 +6,8 @@ import { selectWeather } from '../actions/index';
 import { bindActionCreators } from 'redux';
 import { withRouter } from "react-router-dom";
 
+import '../style/style.css';
+
 class WeatherList extends Component
 {
     display(data)
