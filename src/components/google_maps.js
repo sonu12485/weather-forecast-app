@@ -8,6 +8,7 @@ export default class GoogleMap extends Component
         return (
         <div style={{width: '100%', height: this.props.height }} >
             <GoogleMapReact
+            bootstrapURLKeys={{ key: "AIzaSyDkLSQnUWS0Qge_qTkBT_qQq_0ZQdbmK6A"}}
             defaultCenter={
                 {
                     lat:this.props.lat,
